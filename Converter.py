@@ -2,8 +2,9 @@
 import linecache
 
 # Frist read in the input and output files
-inFile = "Scan 86.0-87.0MHz.rfs"
+#inFile = "Scan 86.0-87.0MHz.rfs"
 #inFile = "Scan 117.0-118.0MHz.rfs"
+inFile = "Scan 121.0-122.0MHz.rfs"
 fIn = open(inFile, "r")
 
 outFile = "MapPoints.csv"
